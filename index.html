@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="overlay">
+    <div class="header" id="back">
+       <div class="iconwrapper">
+        <a href="#" onclick=" sidebar()"><span><img src="./assets/images/hamburger.png" alt="" class="icon"></span></a>
+       </div>
+        <div id="content" >
+            <a href="#" onclick=" sidebar()"><span><img src="./assets/images/close.png" alt="" class="icon"></span></a>
+          <div class="image">
+            <img src="./assets/images/WhatsApp Image 2024-05-31 at 14.32.36_19f7d51d.jpg" alt="">
+          </div>
+              <h1>Menu</h1>
+              <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About</li>
+              </ul>
+        </div>
+        <h1>MY LANDING PAGE</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing  Quod <br> eaque soluta cumque aperiam qui omnis est magnam</p>
+        <button class="alert" id="button" onclick=" popup()">Signup</button>
+        <div  id="alert">
+              <a href=""><span><img src="./assets/images/close.png" class="close" onclick=" closePopUp()" ></span></a>
+             <h3>LogIn</h3>
+             <hr>
+             <h5 class="Username">Username</h5>
+             <input type="text" id="" placeholder="Enter Username" class="input1">
+             <hr>
+             <h5 class="Username">Age</h5>
+             <input type="text" id="" placeholder="Enter Age" class="input1">
+             <hr>
+             <h5 class="Username">Password</h5>
+             <input type="text" id="" placeholder="Enter Password" class="input1">
+             <hr>
+             <button class="submit" onclick="refresh()">Submit</button>
+        </div>
+        
+    </div>
+      
+
+        <script src="app.js"></script>
+</body>
+</html>
